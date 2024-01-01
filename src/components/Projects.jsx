@@ -1,5 +1,5 @@
 import space from "../images/space-tourism.png";
-import entertainment from "../images/thumbnail-project-4-large.webp";
+import movie from "../images/1703092425337.jpeg";
 import reddit from "../images/reddit-app-sc.png";
 import designo from "../images/designo-screenshot.png";
 import audiophile from "../images/audiophile.png";
@@ -13,11 +13,11 @@ const project = [
     repo: "https://github.com/MarcioLopes451/React-Reddit-App",
   },
   {
-    projectName: "Entertainment Web App",
+    projectName: "Movie App (Cineplex)",
     lang: "HTML CSS Javascript React",
-    image: entertainment,
-    website: "https://marciolopes451.github.io/entertainment-web-app/",
-    repo: "https://github.com/MarcioLopes451/entertainment-web-app",
+    image: movie,
+    website: "https://marciolopes451.github.io/Movie-App/",
+    repo: "https://github.com/MarcioLopes451/Movie-App",
   },
   {
     projectName: "Space Tourism",
