@@ -3,7 +3,7 @@ import movie from "../images/1703092425337.jpeg";
 import reddit from "../images/reddit-app-sc.png";
 import designo from "../images/designo-screenshot.png";
 import audiophile from "../images/audiophile.png";
-
+import carurus from "../images/car-urus screenshot.png";
 const project = [
   {
     projectName: "Reddit App",
@@ -39,6 +39,13 @@ const project = [
     image: audiophile,
     website: "https://audiophile-lake.vercel.app",
     repo: "https://github.com/MarcioLopes451/audiophile",
+  },
+  {
+    projectName: "Car-Urus",
+    lang: "HTML CSS React Tailwind",
+    image: carurus,
+    website: "https://marciolopes451.github.io/car-urus/",
+    repo: "https://github.com/MarcioLopes451/car-urus",
   },
 ];
 
