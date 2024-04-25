@@ -57,7 +57,7 @@
 .intro h1 {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-headingXL);
-  //width: 790px;
+  width: 790px;
   color: var(--White);
 }
 .intro span {
@@ -99,19 +99,18 @@
 }
 .lang-list {
   margin-top: 2rem;
-  display: flex;
-  align-items: center;
+  display: grid;
   list-style: none;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: space-between;
+  grid-template-columns: auto auto auto;
+  row-gap: 40px;
+  column-gap: 150px;
 }
 .lang-list li h2 {
   color: var(--White);
   font-size: var(--font-size-headingL);
   text-decoration: underline;
   text-decoration-color: var(--Green);
+  
 }
 .lang-list li p {
   color: var(--Gray);
@@ -306,7 +305,10 @@ form textarea [type="text"] {
   }
   .mobile-tablet-links {
     display: flex;
-    gap: 2rem;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-bottom: 2rem;
   }
   .mobile-tablet-links a {
     color: var(--Gray);
