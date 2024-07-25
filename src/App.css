@@ -1,12 +1,9 @@
 /* nav */
 .navbar {
-  margin-top: 2rem;
-  margin-left: 170px;
-  margin-right: 170px;
+  padding: 2rem 170px;
+  width: 100%;
 }
-.mobile-navbar {
-  display: none;
-}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -49,6 +46,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  
 }
 .intro {
   font-family: var(--font-family--primary);
@@ -57,7 +55,7 @@
 .intro h1 {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-headingXL);
-  width: 790px;
+  width: 100%;
   color: var(--White);
 }
 .intro span {
@@ -95,7 +93,7 @@
 }
 .about-container p {
   color: var(--Gray);
-  font-size: 20px;
+  font-size: var(--font-size-body);
 }
 .lang-list {
   margin-top: 2rem;
@@ -260,11 +258,9 @@ form textarea [type="text"] {
 /* tablet */
 @media screen and (max-width: 1024px) {
   .navbar {
-    position: absolute;
-    top: 30px;
-    left: 60px;
-    margin: auto;
-    width: 708px;
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+    
   }
   .rings {
     opacity: 0.8;
@@ -272,13 +268,17 @@ form textarea [type="text"] {
   }
 
   .hero {
-    margin: 200px 2rem;
+    margin: 100px 2rem;
     text-align: center;
   }
   .intro h1 {
     font-size: 72px;
   }
-
+  .intro p {
+    font-size: 20px;
+    
+    padding: 0%;
+  }
   .about {
     margin: 20px 30px;
   }
@@ -330,20 +330,20 @@ form textarea [type="text"] {
 
 /* mobile */
 @media screen and (max-width: 425px) {
+  .navbar{
+    padding: 0rem 1rem;
+  }
   .navbar-container {
     display: flex;
-    width: 90%;
     align-items: center;
+    padding: 0rem 1rem;
+    width: 100%;
+    
   }
   .rings {
-    display: none;
+    display: none !important;
   }
-  .navbar {
-    position: none;
-    top: 1rem;
-    left: 1rem;
-    width: 100%;
-  }
+  
   .navbar-container p {
     color: var(--White);
     font-family: var(--font-family--primary);
@@ -359,10 +359,8 @@ form textarea [type="text"] {
     width: 20px;
   }
   .hero {
-    margin-top: 9rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
+    margin: 3rem 2rem;
+    
   }
   .hero-container {
     display: flex;
@@ -370,20 +368,26 @@ form textarea [type="text"] {
     justify-content: center;
     text-align: center;
   }
+  .intro {
+    width: 100%;
+  }
   .intro h1 {
-    font-size: 30px;
+    font-size: 20px;
     padding: 0 3rem;
   }
   .intro p {
     padding: 0 3rem;
+    font-size: 16px;
   }
 
   .about-container h1 {
     font-size: var(--font-size-headingL);
     text-align: center;
+    
   }
   .about-container p {
     text-align: center;
+    font-size: 16px;
   }
   .lang-list {
     display: flex;

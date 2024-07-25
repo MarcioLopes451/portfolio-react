@@ -11,9 +11,9 @@ export default function Hero() {
               Nice to meet you! I am <span>Marcio Lopes</span>.
             </h1>
             <p>
-              I am a front-end developer who has a passion for building things
-              and designing. My goal in life is to design & build the best UI/UX
-              & provide users the best experience.
+              I am a front-end developer & UX/UI Designer who has a passion for
+              building things and designing. My goal in life is to design &
+              build the best UI/UX & provide users the best experience.
             </p>
             <a href="/">Contact me</a>
           </div>

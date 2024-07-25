@@ -1,11 +1,26 @@
-import movie from "../images/1703092425337.jpeg";
 import reddit from "../images/reddit-app-sc.png";
-import designo from "../images/designo-screenshot.png";
 import audiophile from "../images/audiophile.png";
 import carurus from "../images/car-urus screenshot.png";
 import liftlabs from "../images/liftlabs screenshot.png";
+import illusio from "../images/Screenshot at Jul 25 19-00-08.png";
+import budi from "../images/Screenshot at Jul 25 19-00-57.png";
+import portfolio from "../images/Screenshot at Jul 25 19-23-31.png";
 
 const project = [
+  {
+    projectName: "illusio",
+    lang: "React Taiwind Typescript",
+    image: illusio,
+    website: "https://illusio.co.uk/",
+    repo: "https://github.com/MarcioLopes451/illusio",
+  },
+  {
+    projectName: "budi",
+    lang: "React Tailwind Typescript",
+    image: budi,
+    website: "https://marciolopes451.github.io/budi/",
+    repo: "https://github.com/MarcioLopes451/budi",
+  },
   {
     projectName: "Lift Labs",
     lang: "React ReactNative Tailwind Typescript",
@@ -16,38 +31,31 @@ const project = [
   },
   {
     projectName: "Audiophile E-Commerce",
-    lang: "NextJs Tailwind",
+    lang: "NextJs Tailwind Javascript",
     image: audiophile,
     website: "https://audiophile-lake.vercel.app",
     repo: "https://github.com/MarcioLopes451/audiophile",
   },
   {
     projectName: "Car-Urus",
-    lang: "React Tailwind",
+    lang: "React Tailwind Javascript",
     image: carurus,
     website: "https://marciolopes451.github.io/car-urus/",
     repo: "https://github.com/MarcioLopes451/car-urus",
   },
   {
-    projectName: "Designo App",
-    lang: "NextJs Tailwind Typescript",
-    image: designo,
-    website: "https://designo-zeta.vercel.app",
-    repo: "https://github.com/MarcioLopes451/designo",
-  },
-  {
     projectName: "Reddit App",
-    lang: "React Redux",
+    lang: "React Redux Javascript",
     image: reddit,
     website: "https://marciolopes451.github.io/React-Reddit-App/",
     repo: "https://github.com/MarcioLopes451/React-Reddit-App",
   },
   {
-    projectName: "Movie App (Cineplex)",
-    lang: "React",
-    image: movie,
-    website: "https://marciolopes451.github.io/Movie-App/",
-    repo: "https://github.com/MarcioLopes451/Movie-App",
+    projectName: "Portfolio",
+    lang: "React CSS Javascript",
+    image: portfolio,
+    website: "https://marciolopes451.github.io/portfolio-react/",
+    repo: "https://github.com/MarcioLopes451/portfolio-react",
   },
 ];
 
