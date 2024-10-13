@@ -38,35 +38,39 @@ export default function Hero() {
           <ul className="lang-list">
             <li>
               <h2>HTML</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
               <h2>CSS</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
               <h2>Tailwind</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
               <h2>Javascript</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
               <h2>Typescript</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
-              <h2>React/Redux</h2>
-              <p>3 Years Experience</p>
+              <h2>Php</h2>
+              <p>2 Years Experience</p>
+            </li>
+            <li>
+              <h2>Laravel</h2>
+              <p>2 Years Experience</p>
             </li>
             <li>
               <h2>Github/Git</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
             <li>
               <h2>NextJs</h2>
-              <p>3 Years Experience</p>
+              <p>4 Years Experience</p>
             </li>
           </ul>
         </div>
