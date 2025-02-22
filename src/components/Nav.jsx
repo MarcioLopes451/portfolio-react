@@ -1,6 +1,5 @@
 import Github from "../images/icon-github.svg";
 import Linkedin from "../images/icon-linkedin.svg";
-import Twitter from "../images/icon-twitter.svg";
 
 export default function Nav() {
   return (
@@ -8,9 +7,20 @@ export default function Nav() {
       <div className="navbar-container">
         <p>Marcio Lopes</p>
         <div className="social-media">
-          <img src={Github} alt="github" />
-          <img src={Linkedin} alt="linkedin" />
-          <img src={Twitter} alt="twitter" />
+          <a
+            href="https://github.com/MarcioLopes451"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Github} alt="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marcioalbertol/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Linkedin} alt="linkedin" />
+          </a>
         </div>
       </div>
     </div>

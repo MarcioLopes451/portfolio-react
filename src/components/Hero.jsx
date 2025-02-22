@@ -15,7 +15,7 @@ export default function Hero() {
               building things and designing. My goal in life is to design &
               build the best UI/UX & provide users the best experience.
             </p>
-            <a href="/">Contact me</a>
+            <a href="mailto:marcio_451@icloud.com">Contact me</a>
           </div>
         </div>
       </div>
