@@ -238,6 +238,13 @@ form textarea [type="text"] {
   text-decoration-color: var(--Green);
 }
 
+.error-message {
+  color: red;
+}
+.valid-message {
+  color: greenyellow;
+}
+
 /* footer */
 .footer-container {
   border-top: 1px solid var(--White);

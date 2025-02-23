@@ -5,10 +5,31 @@ import Linkedin from "../images/icon-linkedin.svg";
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [valid, setValid] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (name.trim() === "") {
+      setError("Missing Name field");
+    } else if (email.trim() === "") {
+      setError("Missing email field");
+    } else if (message.trim() == "") {
+      setError("Missing message field");
+    } else {
+      setError("");
+      setValid(true);
+      setEmail("");
+      setName("");
+      setMessage("");
+    }
   };
+
+  setTimeout(() => {
+    setValid(false);
+  }, 9000);
+
   return (
     <div className="contact">
       <div className="contact-container">
@@ -21,6 +42,12 @@ export default function Contact() {
         </div>
         <div className="form-section">
           <form onSubmit={handleSubmit}>
+            {error && <p className="error-message">{error}</p>}
+            {valid && (
+              <p className="valid-message">
+                Message successfully sent! I will get back to you soon!
+              </p>
+            )}
             <label htmlFor="name"></label>
             <br />
             <input
@@ -46,6 +73,8 @@ export default function Contact() {
                 rows="4"
                 cols="40"
                 placeholder="Message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </label>
             <br />
